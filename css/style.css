@@ -33,7 +33,17 @@ img{
     flex-direction: column;
     top: 60px;
     left: 80px;
+    overflow: hidden;  
+    white-space: nowrap; 
+    margin: 0 auto;  
+    animation: typewriter 4s steps(50, end) 1s 1 normal both;
  }
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
 
  .nathanielDadson {
     color:#e08641;
@@ -41,8 +51,7 @@ img{
     text-shadow: 0 0 4px #f69802;
     font-weight: 500;
     line-height: normal;
-    display: block;
-    left: -5px;
+    
 
  }
 
