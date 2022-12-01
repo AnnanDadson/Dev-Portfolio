@@ -29,17 +29,11 @@
                 <p> Welcome to my beta terminal portfolio. </p>
                 <p> Type <span class="help-color"> 'help' </span>for a list of available commands. </p>
             </div>
-            <div class="user-input-commands" onclick="$('texter').focus();">
-                <textarea type="text" id="texter" onkeyup="typeIt(this, event)"
-                onkeydown="typeIt(this, event); moveIt(this.value.length,event)" onkeypress="typeIt(this, event);"autofocus></textarea>
+            <div id="user-input-area">
                 <span class="command-prompt"> </span>
-                <input type="text" class="user-input" spellcheck="false" autocapitalize="off" value="">
+                <pre class="caret-bar">guest@nate.dev:~$ <span>&nbsp;</span>
+                </pre>
             </div>
-            <div id="pipe">
-                <a id="before"></a>
-                a::before
-                <span id="typer"></span><b class="cursor" id="cursor">█</b>
-              </div>
 
         </div>         
     </div>
