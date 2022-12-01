@@ -6,15 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nate.dev | Daakye Labs</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
 </head>
 <body>
-    <div id="screenShape">
+    <div id="screen-container">
         <img src="images/bezel.png" alt="Bezel Shaped Screen" id="bezel">
-        <p class="daakyeLabs"> Terminal Powered by Daakye Labs. Copyright © 2022. </p> 
-        <p> Welcome to my beta terminal portfolio. </p>
-        <p> For a list of available commands, type 'help'. </p>
-
-    <div id=" terminal">
+        <div id="screen-text">
+            <div class=" header">
+                <p class="daakyeLabs"> Powered by Daakye Labs. Copyright © 2022. </p>
+            </div>
+            <div class="nathanielDadson">
+                <pre>
+                    _   _                 _      _       _           _                 
+        _ __   __ _| |_| |__   __ _ _ __ (_) ___| |   __| | __ _  __| |___  ___  _ __  
+       | '_ \ / _` | __| '_ \ / _` | '_ \| |/ _ \ |  / _` |/ _` |/ _` / __|/ _ \| '_ \ 
+       | | | | (_| | |_| | | | (_| | | | | |  __/ | | (_| | (_| | (_| \__ \ (_) | | | |
+       |_| |_|\__,_|\__|_| |_|\__,_|_| |_|_|\___|_|  \__,_|\__,_|\__,_|___/\___/|_| |_|
+                </pre>
+                <br>
+            </div>
+            <div class="welcome-message">
+                <p> Welcome to my beta terminal portfolio. </p>
+                <p> Type <span class="command-color"> 'help' </span>for a list of available commands. </p>
+            </div>
+            <div class="user-input-commands">  
+                <span class="command-prompt"> </span>
+                <input type="text" class="user-input" spellcheck="false" autocapitalize="off" value="">
+            </div>
+        </div> 
+        
+   
         
     </div>
     
