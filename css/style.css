@@ -62,20 +62,38 @@ img{
  .user-input {
     background: transparent;
     border: 0;
-    color: #e28743;
+    color: #61e68d;
+    position: absolute;;
     font-family: inherit;
     font-size: inherit;
     outline: none;
     width: 100%;
  }
 
- .command-color {
+ .help-color {
    color: #61e68d;
    text-shadow: 0 0 4px #bcecbe;
  }
 
+ #user-input-commands {
+   cursor: text;
+   height: 50px;
+   color: #61e68d;
+ }
 
+ a {
+   text-decoration: inherit;
+}
 
+ textarea {
+   left: -1000px;
+   position: absolute;
+}
+
+#pipe::before {
+   color: #61e68d;
+   content: "guest@nate.dev:~$";
+}
 
 
 

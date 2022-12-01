@@ -27,17 +27,25 @@
             </div>
             <div class="welcome-message">
                 <p> Welcome to my beta terminal portfolio. </p>
-                <p> Type <span class="command-color"> 'help' </span>for a list of available commands. </p>
+                <p> Type <span class="help-color"> 'help' </span>for a list of available commands. </p>
             </div>
-            <div class="user-input-commands">  
+            <div class="user-input-commands" onclick="$('texter').focus();">
+                <textarea type="text" id="texter" onkeyup="typeIt(this, event)"
+                onkeydown="typeIt(this, event); moveIt(this.value.length,event)" onkeypress="typeIt(this, event);"autofocus></textarea>
                 <span class="command-prompt"> </span>
                 <input type="text" class="user-input" spellcheck="false" autocapitalize="off" value="">
             </div>
-        </div> 
-        
-   
-        
+            <div id="pipe">
+                <a id="before"></a>
+                a::before
+                <span id="typer"></span><b class="cursor" id="cursor">█</b>
+              </div>
+
+        </div>         
     </div>
+    <script src="js/cursor.js"></script>
+    <script src="js/usercommands.js"></script>
+    <script src="js/main.js"></script>
     
 </body>
 </html>
