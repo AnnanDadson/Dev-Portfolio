@@ -3,75 +3,64 @@ var instagram = "https://www.instagram.com/dadson_nathaniel/";
 var github = "https://github.com/AnnanDadson";
 var email = 'mailto:dadsonnathaniel777@gmail.com';
 
-whois = [
+
+whoami = [
+    "<br>",
+    "For this session, you are the guest user.",
+    "<br>"
+  ];
+
+about = [
   "<br>",
-  "Hey, I'm Forrest!👋",
-  "I'm a software developer and content creator, who builds engaging websites like this one",
-  "and makes YouTube videos about computer science & software engineering.",
-  "After graduating with a Bachelor's in Computer Science, I worked professionally",
-  "as a software engineer building enterprise web applications for Fortune 500 companies.",
-  "While doing all of that, I documentned my coding journey on YouTube - trying to enlighten",
-  "the next generation of developers and help them navigate the crazy world that is software", "development & computer science.",
-  "Before I knew it, that online presence took on a life of its own, to the point where I knew",
-  "I needed to make the jump from software engineering to full time content creator, and it's",
-  "the best decision I ever made.",
-  "Now, I make videos about creating cool shit like this terminal website, and hosting my",
-  "podcast 'Decoded w/ Forrest Knight.' What most people don't know, and will only know",
-  "because they're reading this right now, is that I also run a creative & media agency.",
-  "We partner with clients to drive their business outcomes using modern marketing strategies.",
+  "Hi, Nathaniel Dadson here!",
+  "Iam a Linux Engineer, Information Security Analyst, and a Webmaster.",
   "<br>"
 ];
 
-whoami = [
-  "<br>",
-  "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
-  "<br>"
+skills = [
+    "<br>",
+    "Languages: Python, JavaScript, CSS, HTML.",
+    "Security Tools: Nmap, Wireshark, AWS.",
+    "<br>"
 ];
+
+projects = [
+    "<br>",
+    "Still brewing...",
+    "<br>"
+];
+
+cv = [
+
+]
 
 social = [
   "<br>",
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
+  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/nathanieldadson' + "</a>",
+  'instagram      <a href="' + instagram + '" target="_blank">instagram/dadsonnathaniel' + '</a>',
+  'github         <a href="' + github + '" target="_blank">github/annandadson' + "</a>",
   "<br>"
 ];
 
-
-projects = [
-  "<br>",
-  "Still brewing...",
-  "<br>"
-];
+website = [
+    "<br>",
+    "I've always loved the terminal interface, so I finally crafted one for my portfolio site.", 
+    "I used HTML, CSS and JavaScript to build this website from scratch.",
+    "I had great inspirations from Craig Feldman and Forest Knight.",
+    "<br>"
+]
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
   '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
-  '<span class="command">social</span>         Display social networks',
-  '<span class="command">secret</span>         Find the password',
-  '<span class="command">projects</span>       View coding projects',
+  '<span class="command">about</span>          Who is Nathaniel Dadson?',
+  '<span class="command">skills</span>         What can I do?',
+  '<span class="command">projects</span>       Check out my projects...',
+  '<span class="command">cv</span>             Check out my cv [pdf - kb]',
   '<span class="command">history</span>        View command history',
-  '<span class="command">help</span>           You obviously already know what this does',
-  '<span class="command">email</span>          Do not email me',
+  '<span class="command">socials</span>        Let build connections',
+  '<span class="command">email</span>          It always good reaching out',
+  '<span class="command">website</span>        How I built this',
+  '<span class="command">help</span>           Everybody needs help',
   '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">banner</span>         Display the header',
-  "<br>",
-];
-
-banner = [
-  '<span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span>',
-  "         ___   ____",
-  "       /' --;^/ ,-_\\     \\ | /       ",
-  "      / / --o\\ o-\\ \\\\   --(_)--   ",
-  "     /-/-/|o|-|\\-\\\\|\\\\   / | \\   ______                          __     __ __       _       __    __   ",
-  "      '`  ` |-|   `` '          / ____/___  _____________  _____/ /_   / //_/____  (_)___ _/ /_  / /_ ",
-  "            |-|                / /_  / __ \\/ ___/ ___/ _ \\/ ___/ __/  / ,<  / __ \\/ / __ `/ __ \\/ __/ ",
-  "            |-|O              / __/ / /_/ / /  / /  /  __(__  ) /_   / /| |/ / / / / /_/ / / / / /_  ",
-  "            |-(\\,__          /_/    \\____/_/  /_/   \\___/____/\\__/  /_/ |_/_/ /_/_/\\__, /_/ /_/\\__/ ",
-  "         ...|-|\\--,\\_....                                                         /____/    © 2022",
-  "      ,;;;;;;;;;;;;;;;;;;;;;;;;,.   ",
-  "~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
-  '<span class="color2">Welcome to my interactive web terminal.</span>',
-  "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
