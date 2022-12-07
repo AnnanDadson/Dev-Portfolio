@@ -1,4 +1,4 @@
-var before = document.getElementById("guest-input");
+var before = document.getElementById("before");
 var liner = document.getElementById("commands");
 var command = document.getElementById("pipe"); 
 var textarea = document.getElementById("texter"); 
@@ -10,7 +10,7 @@ let pwd = false;
 var commands = [];
 
 setTimeout(function() {
-  loopLines(banner, "", 80);
+  loopLines("", 80);
   textarea.focus();
 }, 100);
 
@@ -73,10 +73,6 @@ function commander(entry) {
     case "projects":
       loopLines(projects, "color2 margin", 80);
       break;
-    case "resume":
-      addLine('Loading resume for <a src="cv/nateresume.pdf">nathaniel@nate.dev</a>... Done', "color2", 80);
-      newTab(resume);
-      break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
@@ -84,10 +80,6 @@ function commander(entry) {
       break;
     case "socials":
       loopLines(socials, "color2 margin", 80);
-      break;
-    case "email":
-      addLine('Opening mailto:<a href="mailto:dadsonnathaniel777@gmail.com">nathaniel@nate.dev</a>...', "color2", 80);
-      newTab(email);
       break;
     case "website":
       loopLines(website, "color2 margin", 80);
@@ -98,7 +90,6 @@ function commander(entry) {
         before = document.getElementById("before");
       }, 1);
       break;
-    // socials
     case "linkedin":
       addLine("Loading LinkedIn... Done", "color2", 0);
       newTab(linkedin);
