@@ -1,8 +1,7 @@
 var linkedin = "https://www.linkedin.com/in/nathaniel-dadson-0094b0168/";
 var instagram = "https://www.instagram.com/dadson_nathaniel/";
 var github = "https://github.com/AnnanDadson";
-var email = 'mailto:dadsonnathaniel777@gmail.com';
-var resume = "resume/nateresume.pdf";
+
 
 whoami = [
     "<br>",
@@ -19,7 +18,7 @@ about = [
 
 skills = [
     "<br>",
-    "Languages: Python, CSS, HTML, JavaScript, JQuery, Bash Scripting. ",
+    "Languages     : Python, CSS, HTML, JavaScript, JQuery, Bash Scripting. ",
     "Software Tools: Nmap, Wireshark, Active Directory, AWS.",
     "Certifications: Linux Essenstials, IBM Cybersecurity Analyst, Google Technical Support Fundamentals.",
     "<br>"
@@ -31,9 +30,6 @@ projects = [
     "<br>"
 ];
 
-resume = [
-
-]
 
 socials = [
   "<br>",
@@ -56,11 +52,9 @@ help = [
   '<span class="command">whoami</span>         Who are you?',
   '<span class="command">about</span>          Who is Nathaniel Dadson?',
   '<span class="command">skills</span>         What can I do?',
-  '<span class="command">projects</span>       Check out my projects...',
-  '<span class="command">resume</span>         Check out my resume [pdf - 102 kb]',
+  '<span class="command">projects</span>       Check out my projects',
   '<span class="command">history</span>        View command history',
   '<span class="command">socials</span>        Let build connections',
-  '<span class="command">email</span>          It always good reaching out',
   '<span class="command">website</span>        How I built this',
   '<span class="command">help</span>           Everybody needs help',
   '<span class="command">clear</span>          Clear terminal',
