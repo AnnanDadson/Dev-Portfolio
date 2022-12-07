@@ -30,20 +30,6 @@ function enterKey(e) {
     if (textarea.value === password) {
       pwd = true;
     }
-    if (pwd && e.keyCode == 13) {
-      loopLines(secret, "color2 margin", 120);
-      command.innerHTML = "";
-      textarea.value = "";
-      pwd = false;
-      pw = false;
-      liner.classList.remove("password");
-    } else if (e.keyCode == 13) {
-      addLine("Wrong password", "error", 0);
-      command.innerHTML = "";
-      textarea.value = "";
-      pw = false;
-      liner.classList.remove("password");
-    }
   } else {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
@@ -70,37 +56,41 @@ function enterKey(e) {
   }
 }
 
-function commander(cmd) {
-  switch (cmd.toLowerCase()) {
+function commander(entry) {
+  switch (entry.toLowerCase()) {
     case "help":
       loopLines(help, "color2 margin", 80);
-      break;
-    case "whois":
-      loopLines(whois, "color2 margin", 80);
       break;
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
-      setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000); 
+    case "about":
+      loopLines(about, "color2 margin", 80);
       break;
-    case "social":
-      loopLines(social, "color2 margin", 80);
+    case "skills":
+      loopLines(skills, "color2 margin", 80);
       break;
     case "projects":
       loopLines(projects, "color2 margin", 80);
+      break;
+    case "resume":
+      addLine('Loading resume for <a src="cv/nateresume.pdf">nathaniel@nate.dev</a>... Done', "color2", 80);
+      newTab(resume);
       break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
+    case "socials":
+      loopLines(socials, "color2 margin", 80);
+      break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:dadsonnathaniel777@gmail.com">forrest@fkcodes.com</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:dadsonnathaniel777@gmail.com">nathaniel@nate.dev</a>...', "color2", 80);
       newTab(email);
+      break;
+    case "website":
+      loopLines(website, "color2 margin", 80);
       break;
     case "clear":
       setTimeout(function() {
@@ -110,11 +100,11 @@ function commander(cmd) {
       break;
     // socials
     case "linkedin":
-      addLine("Loading LinkedIn...", "color2", 0);
+      addLine("Loading LinkedIn... Done", "color2", 0);
       newTab(linkedin);
       break;
     case "instagram":
-      addLine("Loading Instagram...", "color2", 0);
+      addLine("Loading Instagram... Done", "color2", 0);
       newTab(instagram);
       break;
     case "github":
@@ -122,7 +112,7 @@ function commander(cmd) {
       newTab(github);
       break;
     default:
-      addLine("<span class=\"inherit\">Command not found. Type <span class=\"command\">'help'</span></span> for a list of commands.", "error", 100);
+      addLine("<span class=\"error\">Command not found. Type <span class=\"command\">'help'</span></span> for a list of commands.", "error", 100);
       break;
   }
 }

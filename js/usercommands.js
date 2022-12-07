@@ -2,39 +2,40 @@ var linkedin = "https://www.linkedin.com/in/nathaniel-dadson-0094b0168/";
 var instagram = "https://www.instagram.com/dadson_nathaniel/";
 var github = "https://github.com/AnnanDadson";
 var email = 'mailto:dadsonnathaniel777@gmail.com';
-
+var resume = "resume/nateresume.pdf";
 
 whoami = [
     "<br>",
-    "For this session, you are the guest user.",
+    "You are the guest user, for this session.",
     "<br>"
-  ];
+];
 
 about = [
   "<br>",
   "Hi, Nathaniel Dadson here!",
-  "Iam a Linux Engineer, Information Security Analyst, and a Webmaster.",
+  "I am an aspiring Linux Engineer, Information Security Analyst, and a Webmaster.",
   "<br>"
 ];
 
 skills = [
     "<br>",
-    "Languages: Python, JavaScript, CSS, HTML.",
-    "Security Tools: Nmap, Wireshark, AWS.",
+    "Languages: Python, CSS, HTML, JavaScript, JQuery, Bash Scripting. ",
+    "Software Tools: Nmap, Wireshark, Active Directory, AWS.",
+    "Certifications: Linux Essenstials, IBM Cybersecurity Analyst, Google Technical Support Fundamentals.",
     "<br>"
 ];
 
 projects = [
     "<br>",
-    "Still brewing...",
+    "Still brewing...Check my github page. ",
     "<br>"
 ];
 
-cv = [
+resume = [
 
 ]
 
-social = [
+socials = [
   "<br>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/nathanieldadson' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/dadsonnathaniel' + '</a>',
@@ -56,7 +57,7 @@ help = [
   '<span class="command">about</span>          Who is Nathaniel Dadson?',
   '<span class="command">skills</span>         What can I do?',
   '<span class="command">projects</span>       Check out my projects...',
-  '<span class="command">cv</span>             Check out my cv [pdf - kb]',
+  '<span class="command">resume</span>         Check out my resume [pdf - 102 kb]',
   '<span class="command">history</span>        View command history',
   '<span class="command">socials</span>        Let build connections',
   '<span class="command">email</span>          It always good reaching out',
