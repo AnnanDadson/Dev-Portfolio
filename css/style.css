@@ -113,7 +113,7 @@ b {
 
  #guest-input::before {
    color: #e08641;
-   content: "guest@nate.dev:~$";
+   content: "guest@nathanieldadson.tech:~$";
  }
 
  @keyframes show {

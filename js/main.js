@@ -99,7 +99,7 @@ function commander(entry) {
       newTab(instagram);
       break;
     case "github":
-      addLine("Loading GitHub...", "color2", 0);
+      addLine("Loading GitHub... Done", "color2", 0);
       newTab(github);
       break;
     default:

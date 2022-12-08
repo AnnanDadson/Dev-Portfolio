@@ -19,14 +19,14 @@ about = [
 skills = [
     "<br>",
     "Languages     : Python, CSS, HTML, JavaScript, JQuery, Bash Scripting. ",
-    "Software Tools: Nmap, Wireshark, Active Directory, AWS.",
+    "Software Tools: Nmap, Wireshark, Kali Linux, Active Directory, AWS.",
     "Certifications: Linux Essenstials, IBM Cybersecurity Analyst, Google Technical Support Fundamentals.",
     "<br>"
 ];
 
 projects = [
     "<br>",
-    "Still brewing...Check my github page. ",
+    "Still brewing...Check my GitHub page. ",
     "<br>"
 ];
 
